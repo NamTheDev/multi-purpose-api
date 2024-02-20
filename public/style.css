@@ -95,6 +95,8 @@ a:active {
 
 .endpoints {
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px white inset;
 }
 
 .endpointCard {
@@ -109,6 +111,7 @@ a:active {
     row-gap: 20px;
     border-radius: 20px;
     font-weight: 900;
+    border: solid white 3px;
 }
 
 button {
