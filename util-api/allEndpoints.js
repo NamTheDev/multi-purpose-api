@@ -8,4 +8,4 @@ const { readdirSync } = require("fs")
 module.exports = async (req, res) => {
     const endpoints = readdirSync('api').map(endpoint => endpoint.split('.')[0])
     res.json({ endpoints })
-} 
+}
